@@ -361,6 +361,76 @@ Polynomial: (1x^3y^0)+(3x^2y^1)+(3x^1y^2)+(1x^0y^3)
 - **Resources:**
   - [How to get your API key from OpenWeatherMap](https://openweathermap.org/appid)
   - [How to retrieve weather data for a city](https://openweathermap.org/current#name)
+  
+  ### **December -Are the diagonals of the matrix equal?**.
+
+-**Problem**
+
+Given an M x N matrix, return True if and only if every diagonal from top-left to bottom-right has the same element.
+ 
+-**Example 1**:
+
+**Input matrix** =
+[
+  [1,2,3,4],
+  [5,1,2,3],
+  [9,5,1,2]
+]
+
+**Output**: True
+
+**Explanation**:
+In the above grid, the diagonals are:
+"[9]", "[5, 5]", "[1, 1, 1]", "[2, 2, 2]", "[3, 3]", "[4]".
+In each diagonal all elements are the same, so the answer is True.
+
+-**Example 2**:
+
+**Input matrix** =
+[
+  [1,2],
+  [2,2]
+]
+
+**Output**: False
+
+**Explanation**:
+The diagonal "[1, 2]" has different elements.
+
+-**Constraints**:
+
+Matrix will be a 2D array of integers.
+Matrix will have a number of rows and columns in range [1, 10].
+Matrix[i][j] will be integers in range [0, 99].
+
+-**Resources**:
+https://www.sanfoundry.com/c-programming-examples-matrix/
+
+### **Deceember -Longest common Prefix**:
+
+-**Problem**
+
+Write a function to find the longest common prefix string amongst a given array of strings.
+
+If there is no common prefix, return "No common prefix".
+
+**Example 1**:
+
+**Input**: ["Element","Elegant","Electric","Elephant"]
+Output: "Ele"
+
+**Example 2**:
+
+**Input**: ["bus","car","train"]
+Output: "No common prefix"
+
+**Explanation**: There is no common prefix among the input strings.
+
+-**Constraints**:
+All given inputs are in lowercase letters a-z.
+
+-**Resources**:
+https://www.hackerearth.com/practice/algorithms/string-algorithm/basics-of-string-manipulation/tutorial/
 
 
 FAQ:
